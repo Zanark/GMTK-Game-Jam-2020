@@ -23,3 +23,8 @@
 - As for the random attacks.......good luck.(it depends on your reaction time)
 
 
+![](./Pictures/MainScreenBlueprint.png)
+
+
+![](./Pictures/VirusBlueprint.png)
+
