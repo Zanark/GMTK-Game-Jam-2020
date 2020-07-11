@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/My Computer.png-f8b9840565b02719ac128823717a2262.stex"
+path="res://.import/OS.png-b65c486fdca5f16539a986d38ef097f9.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/DeskIcons/My Computer.png"
-dest_files=[ "res://.import/My Computer.png-f8b9840565b02719ac128823717a2262.stex" ]
+source_file="res://assets/System/Software/WindowsUI/OS.png"
+dest_files=[ "res://.import/OS.png-b65c486fdca5f16539a986d38ef097f9.stex" ]
 
 [params]
 

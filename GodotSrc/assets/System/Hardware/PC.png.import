@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Docs.png-d26721a5915fb169d62a1eef114df7a3.stex"
+path="res://.import/PC.png-f6da121491fabfe2f414b3cc0946ac00.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/DeskIcons/Docs.png"
-dest_files=[ "res://.import/Docs.png-d26721a5915fb169d62a1eef114df7a3.stex" ]
+source_file="res://assets/System/Hardware/PC.png"
+dest_files=[ "res://.import/PC.png-f6da121491fabfe2f414b3cc0946ac00.stex" ]
 
 [params]
 

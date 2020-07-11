@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Start Button.png-06f21b1d9e0f8b20a2d6b304a6321fab.stex"
+path="res://.import/Internet.png-ff7cdac7d391c83f91b86198fedc0312.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/DeskIcons/Start Button.png"
-dest_files=[ "res://.import/Start Button.png-06f21b1d9e0f8b20a2d6b304a6321fab.stex" ]
+source_file="res://assets/System/Software/DeskIcons/Internet.png"
+dest_files=[ "res://.import/Internet.png-ff7cdac7d391c83f91b86198fedc0312.stex" ]
 
 [params]
 

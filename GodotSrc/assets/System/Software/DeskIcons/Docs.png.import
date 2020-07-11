@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Recycle Bin.png-7058a70e3922134c1f4a98f3e1c3e347.stex"
+path="res://.import/Docs.png-c168cd26523e0f4d06b32bcad5e957fe.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/DeskIcons/Recycle Bin.png"
-dest_files=[ "res://.import/Recycle Bin.png-7058a70e3922134c1f4a98f3e1c3e347.stex" ]
+source_file="res://assets/System/Software/DeskIcons/Docs.png"
+dest_files=[ "res://.import/Docs.png-c168cd26523e0f4d06b32bcad5e957fe.stex" ]
 
 [params]
 
