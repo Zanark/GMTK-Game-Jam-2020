@@ -1,0 +1,63 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Adware Popup.gd" type="Script" id=1]
+
+[node name="Adware Popup" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -1.33484
+margin_right = -1.33484
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="WindowDialog" type="WindowDialog" parent="."]
+visible = true
+margin_left = 559.919
+margin_top = 44.0376
+margin_right = 607.919
+margin_bottom = 84.0376
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="WindowDialog2" type="WindowDialog" parent="."]
+visible = true
+margin_left = 391.55
+margin_top = 149.549
+margin_right = 439.55
+margin_bottom = 189.549
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="WindowDialog3" type="WindowDialog" parent="."]
+visible = true
+margin_left = 241.14
+margin_top = 39.5478
+margin_right = 289.14
+margin_bottom = 79.5478
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="WindowDialog4" type="WindowDialog" parent="."]
+visible = true
+margin_left = 480.224
+margin_top = 315.673
+margin_right = 528.224
+margin_bottom = 355.673
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="WindowDialog5" type="WindowDialog" parent="."]
+visible = true
+margin_left = 107.567
+margin_top = 221.387
+margin_right = 155.567
+margin_bottom = 261.387
+__meta__ = {
+"_edit_use_anchors_": false
+}
