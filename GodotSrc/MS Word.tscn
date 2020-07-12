@@ -53,7 +53,7 @@ size_flags_horizontal = 0
 size_flags_vertical = 0
 
 [node name="Sprite" type="Sprite" parent="."]
-position = Vector2( 503.629, 90.92 )
+position = Vector2( 501.251, 93.2984 )
 texture = ExtResource( 6 )
 __meta__ = {
 "_edit_group_": true

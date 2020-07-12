@@ -1,0 +1,87 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://assets/System/Software/DeskIcons/Docs.png" type="Texture" id=1]
+[ext_resource path="res://assets/System/Software/WindowsUI/Start Button.png" type="Texture" id=2]
+[ext_resource path="res://assets/System/Software/WindowsUI/SaveButton.png" type="Texture" id=3]
+[ext_resource path="res://assets/Others/DialogueBox_Shout.png" type="Texture" id=4]
+[ext_resource path="res://Tutorial.gd" type="Script" id=5]
+[ext_resource path="res://MineCraftFont.tres" type="DynamicFont" id=6]
+
+[node name="Tutorial" type="Node2D"]
+script = ExtResource( 5 )
+
+[node name="DialogueBox_Shout" type="Sprite" parent="."]
+position = Vector2( 316.604, 169.719 )
+scale = Vector2( 31.3511, 23.3612 )
+texture = ExtResource( 4 )
+
+[node name="Docs" type="Sprite" parent="."]
+position = Vector2( 59.3467, 55.4476 )
+scale = Vector2( 2.50831, 2.368 )
+texture = ExtResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Label" type="Label" parent="Docs"]
+margin_left = 19.9313
+margin_top = -15.0525
+margin_right = 185.931
+margin_bottom = 15.9475
+custom_fonts/font = ExtResource( 6 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_colors/font_outline_modulate = Color( 0, 0, 0, 1 )
+text = "Click on this icon to open 
+Word Editor"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Start Button" type="Sprite" parent="."]
+position = Vector2( 93.8383, 162.168 )
+scale = Vector2( 3.2122, 2.7743 )
+texture = ExtResource( 2 )
+
+[node name="Label" type="Label" parent="Start Button"]
+margin_left = 32.144
+margin_top = -15.3284
+margin_right = 124.144
+margin_bottom = 15.6716
+custom_fonts/font = ExtResource( 6 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "Try pressing 
+start in the OS"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="SaveButton" type="Sprite" parent="."]
+position = Vector2( 63.763, 271.7 )
+scale = Vector2( 4.25795, 5.11208 )
+texture = ExtResource( 3 )
+
+[node name="Label" type="Label" parent="."]
+margin_left = 116.981
+margin_top = 225.954
+margin_right = 372.981
+margin_bottom = 292.954
+rect_scale = Vector2( 2, 2 )
+custom_fonts/font = ExtResource( 6 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "Press Enter/Return after typing
+and then press save icon to 
+submit the draft"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" type="Button" parent="."]
+margin_left = 536.619
+margin_top = 306.619
+margin_right = 625.619
+margin_bottom = 345.619
+text = "NEXT"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]

@@ -1,6 +1,6 @@
 extends RichTextLabel
 
-var dialogue = ["Hey! Hey! This is Jeremy, you are the new intern right?", "Okay well you see we have got some urgent work we need to get done ASAP. Ya need to publish the patch notes for the updates on the company's latest app \'Get Motivated: Quarantine Edition\' ", "The deadline is in 20 mins, get this done ASAP and mail me the draft!"]
+var dialogue = ["Hey! Hey! This is Jeremy, you are the new intern right?", "Okay well you see we have got some urgent hardware work we need to get done ASAP. Ya need to send me the list of all office hardware requirements, I remember sticking a note on your monitor this morning which has the name of all the required components. Send me a comma seperated list of the iterms ASAP.", "Get this done ASAP and submit it to me within 5 minutes!"]
 var page = 0
 onready var PhoneNode = get_node("/root/Scene1/Phone")
 

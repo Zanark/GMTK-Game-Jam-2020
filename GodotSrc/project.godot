@@ -17,7 +17,7 @@ _global_script_class_icons={
 
 config/name="Panik"
 config/description="Game made for GMTK Game Jam 2020"
-run/main_scene="res://Scene 1.tscn"
+run/main_scene="res://Title Screen.tscn"
 config/icon="res://icon.png"
 
 [display]
