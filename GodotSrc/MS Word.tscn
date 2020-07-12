@@ -64,6 +64,11 @@ margin_left = -48.0
 margin_top = -35.5946
 margin_right = 46.0
 margin_bottom = 33.4054
+custom_colors/default_color = Color( 0, 0, 0, 1 )
+text = "Requirements:
+- Hard drives
+- Light bulbs
+- Power cables"
 __meta__ = {
 "_edit_use_anchors_": false
 }

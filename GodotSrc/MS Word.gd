@@ -11,5 +11,5 @@ func _on_LineEdit_text_entered(new_text):
 	EnteredText = new_text
 
 func _on_Submit_Button_pressed():
-	if EnteredText == "This is the final text":
-		get_tree().change_scene("res://Scene 1.tscn") #add end screen here
+	if EnteredText == "hard drives, light bulbs, power cables" or "Hard drives, Light bulbs, Power cables":
+		get_tree().change_scene("res://The End.tscn") #add end screen here
