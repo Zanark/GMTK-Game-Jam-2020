@@ -1,10 +1,11 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://assets/System/Software/WindowsUI/MS_Word.png" type="Texture" id=1]
 [ext_resource path="res://assets/System/Hardware/PC.png" type="Texture" id=2]
 [ext_resource path="res://assets/System/Software/WindowsUI/SaveButton.png" type="Texture" id=3]
 [ext_resource path="res://MS Word.gd" type="Script" id=4]
 [ext_resource path="res://Adware Popup.tscn" type="PackedScene" id=5]
+[ext_resource path="res://assets/Office/Sticky note.png" type="Texture" id=6]
 
 [sub_resource type="StyleBoxFlat" id=1]
 bg_color = Color( 1, 1, 1, 1 )
@@ -44,9 +45,27 @@ __meta__ = {
 }
 
 [node name="Adware Popup" parent="." instance=ExtResource( 5 )]
-margin_right = 0.0
-margin_bottom = 0.0
+margin_left = -3.56763
+margin_top = -5.35144
+margin_right = -3.56763
+margin_bottom = -5.35144
 size_flags_horizontal = 0
 size_flags_vertical = 0
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 503.629, 90.92 )
+texture = ExtResource( 6 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Sprite"]
+margin_left = -48.0
+margin_top = -35.5946
+margin_right = 46.0
+margin_bottom = 33.4054
+__meta__ = {
+"_edit_use_anchors_": false
+}
 [connection signal="text_entered" from="LineEdit" to="." method="_on_LineEdit_text_entered"]
 [connection signal="pressed" from="Submit Button" to="." method="_on_Submit_Button_pressed"]
