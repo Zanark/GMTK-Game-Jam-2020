@@ -8,4 +8,6 @@ Out of control
 
 ![Out of control](https://img.itch.zone/aW1nLzM4MjIzODAuZ2lm/original/RQPXsc.gif)
 
+## Demo
 
+https://zanark.github.io/GMTK-Game-Jam-2020/
